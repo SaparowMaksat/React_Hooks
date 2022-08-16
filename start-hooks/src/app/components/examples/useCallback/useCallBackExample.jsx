@@ -1,8 +1,4 @@
-import React from "react";
-import { useRef } from "react";
-import { useCallback } from "react";
-import { useEffect } from "react";
-import { useState } from "react";
+import React, { useRef, useCallback, useEffect, useState } from "react";
 import CardWrapper from "../../common/Card";
 import SmallTitle from "../../common/typografy/smallTitle";
 
