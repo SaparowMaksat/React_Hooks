@@ -23,13 +23,16 @@ const ProgrammableActionsExample = () => {
             <input
                 ref={inputRef}
                 type="email"
-                className="form-control"
+                className="form-control mb-3"
                 id="email"
             />
             <button className="btn btn-primary" onClick={handleClick}>
                 Фокус input
             </button>
-            <button className="btn btn-secondary" onClick={handleClickWidth}>
+            <button
+                className="btn btn-secondary ms-3"
+                onClick={handleClickWidth}
+            >
                 Изменить ширину объекта
             </button>
         </CardWrapper>
